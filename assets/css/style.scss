@@ -18,3 +18,5 @@ html, body { background-color: #0d1117; color-scheme: dark; }
 .markdown-body pre, .markdown-body .highlight pre { background-color: #151b23; }
 .markdown-body pre code, .markdown-body pre tt { background-color: transparent; }
 .markdown-body img { background-color: #ffffff; border-radius: 6px; }
+/* Hide the auto-generated site title above the README */
+.markdown-body > h1:first-child { display: none; }
