@@ -394,4 +394,3 @@ CGI publishes no technical API documentation for Ratabase360, so the CGI sources
 
 - [What are z/OS Connect API requesters?](https://www.ibm.com/docs/pt-br/SS4SVW_3.0.0/overview/apireq_workflow.html), IBM Documentation
 - [The RRS batch adapter](https://www.ibm.com/docs/en/SSFKSJ_9.3.0/develop/q027130_.html), IBM MQ Documentation
-# RB360-integration
