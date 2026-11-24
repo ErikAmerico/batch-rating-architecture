@@ -1,9 +1,5 @@
 # Ratabase360 batch rating integration: architecture recommendation
 
-As of November 24, 2026
-
-## Summary to share
-
 **Recommendation.** Do not choose between bulk REST and MQ yet. For scheduled batch, take rating out of the COBOL record loop: the mainframe writes a rating-request file, a small Windows worker rates it against Ratabase360 in parallel, and the mainframe reads the results and continues with capping, renewals and STAT. Move the work between platforms on what we already run, MQ or managed file transfer.
 
 **Why not simply "bulk REST".** CGI's public material describes Ratabase360 as a real-time, per-transaction rating API. No production bulk-rating endpoint is documented publicly. Unless CGI confirms one, a bulk REST call means building our own adapter that still rates one policy at a time behind it.
