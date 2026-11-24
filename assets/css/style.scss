@@ -1,0 +1,20 @@
+---
+---
+
+@import "jekyll-theme-primer";
+
+/* Dark mode by default (GitHub dark palette) */
+html, body { background-color: #0d1117; color-scheme: dark; }
+.markdown-body { color: #e6edf3; }
+.markdown-body a { color: #4493f8; }
+.markdown-body h1, .markdown-body h2 { border-bottom-color: #30363d; }
+.markdown-body h6 { color: #9198a1; }
+.markdown-body hr { background-color: #30363d; }
+.markdown-body blockquote { color: #9198a1; border-left-color: #30363d; }
+.markdown-body table tr { background-color: #0d1117; border-top-color: #30363d; }
+.markdown-body table tr:nth-child(2n) { background-color: #151b23; }
+.markdown-body table th, .markdown-body table td { border-color: #30363d; }
+.markdown-body code, .markdown-body tt { background-color: rgba(101, 108, 118, 0.25); }
+.markdown-body pre, .markdown-body .highlight pre { background-color: #151b23; }
+.markdown-body pre code, .markdown-body pre tt { background-color: transparent; }
+.markdown-body img { background-color: #ffffff; border-radius: 6px; }
